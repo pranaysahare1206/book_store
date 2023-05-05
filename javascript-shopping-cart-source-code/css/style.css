@@ -1,0 +1,89 @@
+.product-name {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.product-price,
+.cart_item_price {
+  font-style: oblique;
+  font-family: cursive;
+}
+
+.product-img {
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px dashed grey;
+
+
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+h4 {
+  font-family: cursive;
+}
+
+.cart_item_name {
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  border: solid red 3px;
+}
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(192, 192, 192, 0.1);
+  font-family: cursive;
+  font-size: xx-large;
+  cursor: wait;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.paypal {
+  display: none;
+}
+
+/* CSS */
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 0.5px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
